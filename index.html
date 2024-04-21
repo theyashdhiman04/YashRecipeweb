@@ -1,0 +1,435 @@
+<!-- Follow the video tutorial for this project at: BestOfCoding.com/tutorials/responsive-website-html-css-grid-flexbox -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Poppins" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Yash Recipe</title>
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="wrapper">
+      <div class="menu-icon"></div>
+      <h1>Yash Recipe</h1>
+      <a href="#" class="special-link">Subscribe <span class="fas fa-angle-double-right"></span></a>
+    </div>
+  </header>
+
+  <main>
+    <nav class="search">
+      <form action="#">
+        <input type="text" placeholder="I want to make ...">
+        <button><span class="fas fa-search"></span></button>
+      </form>
+
+      <ul>
+        <li>
+          <a href="#" class="btn">Salad</a>
+        </li>
+        <li>
+          <a href="#" class="btn">Lunch</a>
+        </li>
+        <li>
+          <a href="#" class="btn">Snack</a>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="featured">
+      <h1>Featured</h1>
+      <div class="cards">
+        <a href="#" class="card card-1">
+          <article>
+            <img src="https://i.ibb.co/d7rcYDv/1.jpg" alt="Food">
+            <div class="tag-1">Article</div>
+            <div class="comments">
+              <span class="far fa-comment"></span>
+              42
+            </div>
+            <h2>This is what separates chefs from amateur cooks</h2>
+          </article>
+        </a>
+        <a href="#" class="card card-2">
+          <article>
+            <img src="https://i.ibb.co/nDjPnYT/2.jpg" alt="Food">
+            <div class="tag-1">Recipe</div>
+            <div class="comments">
+              <span class="far fa-comment"></span>
+              8
+            </div>
+            <h2>5 Healthy Snacks to help you get through winter</h2>
+          </article>
+        </a>
+        <a href="#" class="card card-3">
+          <article>
+            <img src="https://i.ibb.co/dtdTFK9/3.jpg" alt="Food">
+            <div class="tag-1">Article</div>
+            <div class="comments">
+              <span class="far fa-comment"></span>
+              13
+            </div>
+            <h2>10 Common beginner mistakes</h2>
+          </article>
+        </a>
+        <a href="#" class="card card-4">
+          <article>
+            <img src="https://i.ibb.co/PryN0m3/4.jpg" alt="Food">
+            <div class="tag-1">Video</div>
+            <span class="fas fa-play-circle"></span>
+          </article>
+        </a>
+      </div>
+    </section>
+
+    <aside class="ad-1">
+      <h1>Never miss another recipe</h1>
+      <a href="#" class="btn">Sign up</a>
+    </aside>
+
+    <div class="mid-area">
+      <section class="latest">
+        <h1>Latest Articles</h1>
+        <div class="cards">
+          <a href="#" class="card">
+            <article>
+              <div class="img-container">
+                <img src="https://i.ibb.co/Bz5gs6F/5.jpg" alt="Food">
+              </div>
+              <div class="description">
+                <header>
+                  <div class="tag-2">Article</div>
+                  <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                </header>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti reiciendis nisi veritatis cum
+                  magni! Maiores voluptatum ...
+                </p>
+                <footer>
+                  <div>
+                    By Susan, 2h ago
+                  </div>
+                  <div>
+                    <span class="far fa-comment"></span> 8
+                    <span class="far fa-clock"></span> 5 min.
+                  </div>
+                </footer>
+              </div>
+            </article>
+          </a>
+          <a href="#" class="card">
+            <article>
+              <div class="img-container">
+                <img src="https://i.ibb.co/K52cn8p/6.jpg" alt="Food">
+              </div>
+              <div class="description">
+                <header>
+                  <div class="tag-2">Article</div>
+                  <h2>Lorem ipsum dolor sit amet consectetur adipisicing.</h2>
+                </header>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti reiciendis nisi veritatis cum
+                  magni! Maiores voluptatum delectus odio ...
+                </p>
+                <footer>
+                  <div>
+                    By Maria, 5h ago
+                  </div>
+                  <div>
+                    <span class="far fa-comment"></span> 22
+                    <span class="far fa-clock"></span> 6 min.
+                  </div>
+                </footer>
+              </div>
+            </article>
+          </a>
+          <a href="#" class="card">
+            <article>
+              <div class="img-container">
+                <img src="https://i.ibb.co/xJ83nRC/7.jpg" alt="Food">
+              </div>
+              <div class="description">
+                <header>
+                  <div class="tag-2">Article</div>
+                  <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+                </header>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti reiciendis nisi veritatis cum
+                  magni! Maiores voluptatum delectus odio ...
+                </p>
+                <footer>
+                  <div>
+                    By Susan, yesterday
+                  </div>
+                  <div>
+                    <span class="far fa-comment"></span> 10
+                    <span class="far fa-clock"></span> 8 min.
+                  </div>
+                </footer>
+              </div>
+            </article>
+          </a>
+          <a href="#" class="card">
+            <article>
+              <div class="img-container">
+                <img src="https://i.ibb.co/xYzgxhJ/8.jpg" alt="Food">
+              </div>
+              <div class="description">
+                <header>
+                  <div class="tag-2">Article</div>
+                  <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                </header>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti reiciendis nisi veritatis cum
+                  magni! Maiores voluptatum delectus odio ...
+                </p>
+                <footer>
+                  <div>
+                    By Maria, yesterday
+                  </div>
+                  <div>
+                    <span class="far fa-comment"></span> 42
+                    <span class="far fa-clock"></span> 6 min.
+                  </div>
+                </footer>
+              </div>
+            </article>
+          </a>
+          <a href="#" class="card">
+            <article>
+              <div class="img-container">
+                <img src="https://i.ibb.co/LP6MV7L/9.jpg" alt="Food">
+              </div>
+              <div class="description">
+                <header>
+                  <div class="tag-2">Article</div>
+                  <h2>Lorem ipsum dolor, sit amet consectetur adipisicing.</h2>
+                </header>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti reiciendis nisi veritatis cum
+                  magni! Maiores voluptatum delectus odio ...
+                </p>
+                <footer>
+                  <div>
+                    By Maria, yesterday
+                  </div>
+                  <div>
+                    <span class="far fa-comment"></span> 15
+                    <span class="far fa-clock"></span> 7 min.
+                  </div>
+                </footer>
+              </div>
+            </article>
+          </a>
+        </div>
+      </section>
+      <div class="sidebar">
+        <section class="popular">
+          <h1>Popular Recipes</h1>
+          <ul>
+            <li>
+              <a href="#">
+                <article>
+                  <img src="https://i.ibb.co/qyj59nM/10.jpg" alt="Food">
+                  <div class="description">
+                    <div class="tag-2">Recipe</div>
+                    <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+                    <div class="stars">
+                      <span class="fas fa-star"></span> 4.8
+                    </div>
+                  </div>
+                </article>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <article>
+                  <img src="https://i.ibb.co/sgjsbjY/11.jpg" alt="Food">
+                  <div class="description">
+                    <div class="tag-2">Recipe</div>
+                    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                    <div class="stars">
+                      <span class="fas fa-star"></span> 4.4
+                    </div>
+                  </div>
+                </article>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <article>
+                  <img src="https://i.ibb.co/DwXPpmk/12.jpg" alt="Food">
+                  <div class="description">
+                    <div class="tag-2">Recipe</div>
+                    <h2>Lorem ipsum dolor sit, amet consectetur adipisicing.</h2>
+                    <div class="stars">
+                      <span class="fas fa-star"></span> 4.7
+                    </div>
+                  </div>
+                </article>
+              </a>
+            </li>
+          </ul>
+        </section>
+        <aside class="ad-2">
+          Ad Placement
+        </aside>
+      </div>
+    </div>
+
+    <section class="collections">
+      <h1>Recipe Collections</h1>
+      <div class="cards">
+        <a href="#" class="card">
+          <article>
+            <img src="https://i.ibb.co/VDnRHFY/13.jpg" alt="Food">
+            <div class="description">
+              <div class="tag-2">56 recipes</div>
+              <h2>Quick & Easy</h2>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </article>
+        </a>
+        <a href="#" class="card">
+          <article>
+            <img src="https://i.ibb.co/MfHq6Jk/14.jpg" alt="Food">
+            <div class="description">
+              <div class="tag-2">120 recipes</div>
+              <h2>Salads</h2>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </article>
+        </a>
+        <a href="#" class="card">
+          <article>
+            <img src="https://i.ibb.co/02qhPP4/15.jpg" alt="Food">
+            <div class="description">
+              <div class="tag-2">94 recipes</div>
+              <h2>Fruits</h2>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </article>
+        </a>
+      </div>
+    </section>
+
+    <section class="recipes">
+      <h1>Browse Recipes</h1>
+      <div class="cards">
+        <a href="#" class="card small">
+          <article>
+            <img src="https://i.ibb.co/8MMkxxb/16.jpg" alt="Food">
+            <div class="stars">
+              <span class="fas fa-star"></span> 4.9
+            </div>
+            <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+          </article>
+        </a>
+        <a href="#" class="card big">
+          <article>
+            <img src="https://i.ibb.co/WD2FLdZ/17.jpg" alt="Food">
+            <div class="stars">
+              <span class="fas fa-star"></span> 4.9
+            </div>
+            <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+          </article>
+        </a>
+        <a href="#" class="card medium">
+          <article>
+            <img src="https://i.ibb.co/1GJLXJf/18.jpg" alt="Food">
+            <div class="stars">
+              <span class="fas fa-star"></span> 4.9
+            </div>
+            <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+          </article>
+        </a>
+        <a href="#" class="card medium">
+          <article>
+            <img src="https://i.ibb.co/zJh3fCx/19.jpg" alt="Food">
+            <div class="stars">
+              <span class="fas fa-star"></span> 4.9
+            </div>
+            <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+          </article>
+        </a>
+        <a href="#" class="card small">
+          <article>
+            <img src="https://i.ibb.co/d67p6QJ/20.jpg" alt="Food">
+            <div class="stars">
+              <span class="fas fa-star"></span> 4.9
+            </div>
+            <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+          </article>
+        </a>
+        <a href="#" class="card small">
+          <article>
+            <img src="https://i.ibb.co/XCmRkSg/21.jpg" alt="Food">
+            <div class="stars">
+              <span class="fas fa-star"></span> 4.9
+            </div>
+            <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+          </article>
+        </a>
+      </div>
+      <a href="#" class="special-link">All Recipes <span class="fas fa-angle-double-right"></span></a>
+    </section>
+
+    <aside class="ad-3">
+      <div class="container">
+        <h1>Our Monthly Magazine</h1>
+        <p>An absolute must-have for aspiring chefs</p>
+      </div>
+      <a href="#" class="btn">Subscribe</a>
+    </aside>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrapper">
+      <section>
+        <p>Perfect Omelette lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae voluptate suscipit itaque
+          illum dolor rem nesciunt ipsa consequuntur incidunt nam!</p>
+        <ul class="socials">
+          <li><a href="#" class="box"></a></li>
+          <li><a href="#" class="box"></a></li>
+          <li><a href="#" class="box"></a></li>
+        </ul>
+      </section>
+      <section>
+        <h1>Explore</h1>
+        <ul>
+          <li><a href="#">Recipes</a></li>
+          <li><a href="#">Articles</a></li>
+          <li><a href="#">Videos</a></li>
+        </ul>
+      </section>
+      <section>
+        <h1>About</h1>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </section>
+      <section>
+        <h1>Legal</h1>
+        <ul>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Privacy</a></li>
+        </ul>
+      </section>
+    </div>
+    <small>&copy; Copyright 2024, YASH DHIMAN</small>
+  </footer>
+
+</body>
+
+</html>
